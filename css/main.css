@@ -1,0 +1,21 @@
+/*The css styling is targeted when it is called in our function on the Javascript page. This places the background image onto the div box. The left arrow and right arrow are added to fillpage class through a delimiter. vh and vw stand for viewport height and viewport width. This stretches the div container to match the size of the html element. */
+
+body {
+    background-color: olive; 
+}
+
+.leftArrow {
+    background: url("../imgs/leftarrow.png") no-repeat center center fixed;
+    background-size: contain;
+}
+
+.rightArrow {
+    background: url("../imgs/rightarrow.png") no-repeat center center fixed;
+    background-size: contain;
+}
+
+.fillpage {
+     width: 100vw;
+     height: 100vh;
+}
+
